@@ -1,0 +1,24 @@
+{
+  "name": "basegl-code",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "gsap": "^3.12.5",
+    "@vueuse/core": "^11.3.0",
+    "@vueuse/motion": "^2.2.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.5",
+    "sass": "^1.83.0",
+    "sass-loader": "^16.0.4"
+  }
+}
