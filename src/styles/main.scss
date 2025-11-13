@@ -1,3 +1,5 @@
+
+
 // 重置样式
 * {
   margin: 0;
@@ -6,7 +8,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: calc(100vw/192); /* 设置根元素字体大小为10px，方便rem计算 */
 }
 
 body {
